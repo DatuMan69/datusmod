@@ -13,17 +13,19 @@ set_politics = {
     ruling_party = neutrality
     last_election = never
     election_frequency = 0
-    elections_allowed = no 
+    elections_allowed = no
 }
 set_popularities = {
     neutrality = 90
     democratic = 5
     communism = 5
+    fascism = 0
 }
 create_country_leader = {
     name = "Elvis Presley"
-    desc = #
+    # desc = ""
     picture = "gfx/leaders/USA/USA_Elvis_Presley.dds"
     expire = "1965.1.1"
     ideology = despotism
+    traits = { }
 }
