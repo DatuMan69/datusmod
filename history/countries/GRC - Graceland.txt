@@ -11,8 +11,9 @@ set_technology = {
 }
 set_politics = {
     ruling_party = neutrality
-    last_election = "never"
-    elections_allowed = no
+    last_election = never
+    election_frequency = 0
+    elections_allowed = no 
 }
 set_popularities = {
     neutrality = 90
@@ -25,6 +26,4 @@ create_country_leader = {
     picture = "gfx/leaders/USA/USA_Elvis_Presley.dds"
     expire = "1965.1.1"
     ideology = despotism
-    traits = {#
-    }
 }
