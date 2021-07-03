@@ -95,17 +95,6 @@ set_popularities = {
 	neutrality = 50
 }
 
-create_faction = Comintern
-add_to_faction = SOV
-add_to_faction = MON
-add_to_faction = TAN
-
-
-add_ideas = {
-	trotskyite_plot
-	home_of_revolution
-}
-
 create_country_leader = {
 	name = "Joseph Stalin"
 	desc = "POLITICS_JOSEPH_STALIN_DESC"
