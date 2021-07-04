@@ -8,7 +8,7 @@ set_technology = {
 	mass_assault = 1
 }
 set_stability = 0.6
-set_war_support = 0.7
+set_war_support = 0.6
 
 
 save_global_event_target_as = WTT_communist_china
@@ -22,27 +22,6 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
-
-add_ideas = {
-	closed_economy
-	service_by_requirement
-	partial_economic_mobilisation
-}
-
-if = {
-	limit = {
-		has_dlc = "Waking the Tiger"
-	}
-	add_ideas = {
-		PRC_the_long_march_1
-		PRC_low_popular_support_3
-		PRC_power_struggles
-		PRC_red_army_weakened
-	}
-}
-
-add_opinion_modifier = { target = CHI modifier = hostile_status }
-
 create_country_leader = {
 	name = "Xi Jinping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
