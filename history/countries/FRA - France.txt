@@ -91,7 +91,6 @@ if = {
 		basic_heavy_armor_scheme = 1
 		mtg_transport = 1
 	}
-	add_ideas = MTG_naval_treaty_adherent
 }
 if = {
 	limit = {
@@ -107,7 +106,7 @@ set_convoys = 300
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1932.5.1"
+	last_election = ""
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -119,25 +118,14 @@ set_popularities = {
 }
 
 add_ideas = {
-	FRA_victors_of_wwi
-	FRA_disjointed_government
-	FRA_protected_by_the_maginot_line
-	limited_conscription
-	FRA_full_employment
-	FRA_political_violence
-	FRA_inefficient_economy_2
 }
-
-give_guarantee = CZE
-give_guarantee = YUG
-give_guarantee = ROM
 
 #Order matters here Daladier will start as leaders because added last
 create_country_leader = {
 	name = "Édouard Daladier"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = "Portrait_France_Edouard_Daladier.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = socialism
 	traits = {
 		stout_defender
@@ -148,7 +136,7 @@ create_country_leader = {
 	name = "Pierre Laval"
 	desc = "POLITICS_ÉDOUARD_DALADIER_DESC"
 	picture = GFX_portrait_fra_pierre_laval
-	expire = "1965.1.1"
+	expire = ""
 	ideology = liberalism
 	traits = {
 		stout_defender
@@ -159,7 +147,7 @@ create_country_leader = {
 	name = "Maurice Thorez"
 	desc = "POLITICS_MAURICE_THOREZ_DESC"
 	picture = "GFX_portrait_fra_maurice_thorez"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = 	stalinism
 	traits = {
 		
@@ -170,7 +158,7 @@ create_country_leader = {
 	name = "Philippe Pétain"
 	desc = "POLITICS_PHILIPPE_PÉTAIN_DESC"
 	picture = "Portrait_France_Philippe_Petain.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = fascism_ideology
 	traits = {
 		

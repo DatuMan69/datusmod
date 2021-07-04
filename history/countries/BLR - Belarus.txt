@@ -60,14 +60,18 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 15	neutrality = 20	communism = 60	fascism = 5
+set_popularities = {
+	democratic = 15
+	neutrality = 20
+	communism = 60
+	fascism = 5
 }
 
 create_country_leader = {
     name = "Vasil Zacharka"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-    expire = "1965.1.1"
+    expire = ""
     ideology = centrism
     traits = {
         #
@@ -78,7 +82,7 @@ create_country_leader = {
     name = "Radasłaŭ Astroŭski"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-    expire = "1965.1.1"
+    expire = ""
     ideology = fascism_ideology
     traits = {
         #
@@ -89,7 +93,7 @@ create_country_leader = {
     name = "Panteleimon Ponomarenko"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-    expire = "1965.1.1"
+    expire = ""
     ideology = stalinism
     traits = {
         #
@@ -100,7 +104,7 @@ create_country_leader = {
     name = "Adam Stankievič"
     desc = ""
     picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-    expire = "1965.1.1"
+    expire = ""
     ideology = socialism
     traits = {
         #

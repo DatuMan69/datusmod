@@ -61,7 +61,8 @@ if = {
 	}
 }
 
-set_popularities = {	fascism = 34
+set_popularities = {
+	fascism = 34
 	democratic = 30
 	communism = 36
 }
@@ -70,7 +71,7 @@ create_country_leader = {
 	name = "Drastamat Kanayan"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_5.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = fascism_ideology
 	traits = {
 		
@@ -81,7 +82,7 @@ create_country_leader = {
 	name = "Hovhannes Kajaznuni"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = conservatism
 	traits = {
 		
@@ -92,7 +93,7 @@ create_country_leader = {
 	name = "Grigor Harutyunyan"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_1.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = stalinism
 	traits = {
 		

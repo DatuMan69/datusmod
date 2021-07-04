@@ -15,7 +15,7 @@ save_global_event_target_as = WTT_communist_china
 
 set_politics = {
 	ruling_party = communism
-	last_election = "1936.1.1"
+	last_election = ""
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -26,7 +26,7 @@ create_country_leader = {
 	name = "Xi Jinping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
 	picture = "CHI_Xi_Jinping.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = marxism
 	traits = {
 		cornered_fox

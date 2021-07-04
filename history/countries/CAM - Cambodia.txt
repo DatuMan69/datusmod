@@ -68,7 +68,7 @@ if = {
 
 set_politics = {
 	ruling_party = democratic
-	last_election = "1933.2.16"
+	last_election = ""
 	election_frequency = 36
 	elections_allowed = yes
 }
@@ -83,7 +83,7 @@ create_country_leader = {
 	name = "Pol Pot" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord1.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = anarchist_communism #insanity
 	traits = {
 		
@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "Sisowath Youtévong"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_4.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = liberalism
 	traits = {
 		
@@ -106,7 +106,7 @@ create_country_leader = {
 	name = "Norodom Sihanouk" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = conservatism
 	traits = {
 		

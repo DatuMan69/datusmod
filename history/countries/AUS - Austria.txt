@@ -16,7 +16,7 @@ set_technology = {
 
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1930.11.9"
+	last_election = ""
 	election_frequency = 48
 	elections_allowed = no
 }
@@ -34,7 +34,7 @@ create_country_leader = {
 	name = "Kurt Schuschnigg"
 	desc = "POLITICS_KURT_SCHUSCHNIGG_DESC"
 	picture = "Portrait_Austria_Kurt_Schuschnigg.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = centrism
 	traits = {
 		#
@@ -45,7 +45,7 @@ create_country_leader = {
 	name = "Karl Renner"
 	desc = "POLITICS_KARL_RENNER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = socialism
 	traits = {
 		#
@@ -56,7 +56,7 @@ create_country_leader = {
 	name = "Arthur Seyss-Inquart"
 	desc = "POLITICS_ARTHUR_SEYSS_INQUART_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_3.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = nazism
 	traits = {
 		#
@@ -67,7 +67,7 @@ create_country_leader = {
 	name = "Alfred Klahr"
 	desc = "POLITICS_ALFRED_KLAHR_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = marxism
 	traits = {
 		#

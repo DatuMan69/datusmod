@@ -60,14 +60,16 @@ if = {
 	}
 }
 
-set_popularities = {	democratic = 25	communism = 75
+set_popularities = {
+	democratic = 25
+	communism = 75
 }
 
 create_country_leader = {
 	name = "Noe Zhordania"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = liberalism
 	traits = {
 		
@@ -78,7 +80,7 @@ create_country_leader = {
 	name = "Kandid Charkviani"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = stalinism
 	traits = {
 		
