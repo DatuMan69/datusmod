@@ -35,72 +35,9 @@ if = {
 set_research_slots = 3
 
 set_convoys = 10
-
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = flexible_navy
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "LAT_1939"
-	if = {
-		limit = { has_dlc = "Man the Guns" }
-			set_naval_oob = "LAT_1939_naval_mtg"
-		else = {
-			set_naval_oob = "LAT_1939_naval_legacy"
-		}
-	}
-
-	set_technology = {
-		tech_support = 1		
-		tech_engineers = 1
-		gw_artillery = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		synth_oil_experiments = 1
-		fuel_silos = 1
-		oil_processing = 1
-		improved_oil_processing = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-	}
-}
-
 set_politics = {
 	ruling_party = neutrality
-	last_election = "1931.10.3"
+	last_election = ""
 	election_frequency = 108
 	elections_allowed = no
 }
@@ -110,17 +47,11 @@ set_popularities = {
 	communism = 15
 	neutrality = 40
 }
-
-# probably needs some adjustment before nazi occupation in 1940
-1939.1.1 = {
-	#
-}
-
 create_country_leader = {
 	name = "Karlis Ulmanis"
 	desc = "POLITICS_KARLIS_ULMANIS_DESC"
 	picture = "GFX_Portrait_latvia_karlis_ulmanis"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = oligarchism
 	traits = {
 		#
@@ -131,7 +62,7 @@ create_country_leader = {
 	name = "Gustavs Celmiņš"
 	desc = ""
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = fascism_ideology
 	traits = {
 		#
@@ -141,7 +72,7 @@ create_country_leader = {
 	name = "Fricis Menders"
 	desc = ""
 	picture = "GFX_portrait_lat_fricis_menders"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = socialism
 	traits = {
 		#
@@ -151,7 +82,7 @@ create_country_leader = {
 	name = "Vilis Lacis"
 	desc = ""
 	picture = "GFX_portrait_lat_vilis_lacis"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = marxism
 	traits = {
 		#

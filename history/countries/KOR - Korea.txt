@@ -11,23 +11,20 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
-	last_election = "1936.1.1"
+	ruling_party = communism
+	last_election = ""
 	election_frequency = 48
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 35
-	fascism = 25
-	communism = 30
-	neutrality = 10
+	communism = 100
 }
 
 create_country_leader = {
 	name = "Syngman Rhee"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = conservatism
 	traits = {
 		#
@@ -38,7 +35,7 @@ create_country_leader = {
 	name = "Yi Kang"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = despotism
 	traits = {
 		#
@@ -49,7 +46,7 @@ create_country_leader = {
 	name = "Kim Il-sung"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = stalinism
 	traits = {
 		#
@@ -60,7 +57,7 @@ create_country_leader = {
 	name = "Yi Un"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_land_1.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = fascism_ideology
 	traits = {
 		#
