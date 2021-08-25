@@ -22,6 +22,10 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+set_autonomy = {
+	target = SRL 
+	autonomous_state = autonomy_puppet
+}
 create_country_leader = {
 	name = "Xi Jinping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"
