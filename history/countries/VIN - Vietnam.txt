@@ -84,7 +84,7 @@ create_country_leader = {
 	name = "Phan Bôi Châu" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_warlord2.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = fascism_ideology 
 	traits = {
 		
@@ -95,7 +95,7 @@ create_country_leader = {
 	name = "Ho Chí Minh" 
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_communism.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = marxism
 	traits = {
 		
@@ -106,7 +106,7 @@ create_country_leader = {
 	name = "Ngô Đình Diêm"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_2.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = conservatism
 	traits = {
 		
@@ -117,7 +117,7 @@ create_country_leader = {
 	name = "Nguyen Tuong Tam"
 	desc = ""
 	picture = "gfx/leaders/Asia/Portrait_Asia_Generic_3.dds"
-	expire = "1953.3.1"
+	expire = ""
 	ideology = moderatism
 	traits = {
 		

@@ -16,59 +16,9 @@ set_technology = {
 	fuel_silos = 1
 }
 
-1939.1.1 = {
-
-	add_political_power = 1198
-	
-	#generic focuses
-	complete_national_focus = army_effort
-	complete_national_focus = equipment_effort
-	complete_national_focus = motorization_effort
-	complete_national_focus = aviation_effort
-	complete_national_focus = naval_effort
-	complete_national_focus = industrial_effort
-	complete_national_focus = construction_effort
-	complete_national_focus = production_effort
-	
-	oob = "SWI_1939"
-	set_technology = {
-		fighter1 = 1
-		gw_artillery = 1
-		interwar_artillery = 1
-		interwar_antiair = 1
-		infantry_weapons2 = 1
-		support_weapons = 1
-
-		#doctrines
-		air_superiority = 1
-		grand_battle_plan = 1
-		trench_warfare = 1
-		fleet_in_being = 1
-		battlefleet_concentration = 1
-		convoy_sailing = 1
-
-		#electronics
-		electronic_mechanical_engineering = 1
-		radio = 1
-		radio_detection = 1
-		mechanical_computing = 1
-		computing_machine = 1
-
-		#industry
-		basic_machine_tools = 1
-		improved_machine_tools = 1
-		advanced_machine_tools = 1
-		construction1 = 1
-		construction2 = 1
-		dispersed_industry = 1
-		dispersed_industry2 = 1
-		fuel_refining = 1
-	}
-}
-
 set_politics = {
 	ruling_party = democratic
-	last_election = "1935.10.27"
+	last_election = ""
 	election_frequency = 48
 	elections_allowed = yes
 }
@@ -76,15 +26,6 @@ set_popularities = {
 	democratic = 96
 	fascism = 2
 	communism = 2
-}
-
-1939.1.1 = {
-	#next election october 39
-	set_popularities = {
-		democratic = 95
-		fascism = 2
-		communism = 3
-	}
 }
 
 add_ideas = {
@@ -98,7 +39,7 @@ create_country_leader = {
 	name = "Federal Council"
 	desc = "POLITICS_FEDERAL_COUNCIL_DESC"
 	picture = "Portrait_Switzerland_Federal_council.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = conservatism
 	traits = {
 		#
@@ -109,7 +50,7 @@ create_country_leader = {
 	name = "Ernest Béuin"
 	desc = "POLITICS_ERNST_BEGUIN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_2.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = centrism
 	traits = {
 		#
@@ -120,7 +61,7 @@ create_country_leader = {
 	name = "Dr. Max Leo Keller"
 	desc = "POLITICS_MAX_LEO_KELLER_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_1.dds" 
-	expire = "1965.1.1"
+	expire = ""
 	ideology = nazism
 	traits = {
 		#
@@ -131,7 +72,7 @@ create_country_leader = {
 	name = "Fritz Platten"
 	desc = "POLITICS_FRITZ_PLATTEN_DESC"
 	picture = "gfx/leaders/Europe/Portrait_Europe_Generic_land_3.dds"
-	expire = "1965.1.1"
+	expire = ""
 	ideology = marxism
 	traits = {
 		#
