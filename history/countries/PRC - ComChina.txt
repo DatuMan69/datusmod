@@ -22,10 +22,18 @@ set_politics = {
 set_popularities = {
 	communism = 100
 }
+#diplomacy
+
+create_faction = Chinese_Communist_Alliance
+add_to_faction = VIN
+add_to_faction = CAM
+add_to_faction = LAO
 set_autonomy = {
 	target = SRL 
 	autonomous_state = autonomy_puppet
 }
+
+
 create_country_leader = {
 	name = "Xi Jinping"
 	desc = "POLITICS_MAO_ZEDONG_DESC"

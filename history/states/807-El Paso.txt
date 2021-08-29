@@ -1,0 +1,22 @@
+state={
+	id=807
+	name="STATE_807"
+	history = {
+		owner = MEX
+		add_core_of = TXS
+		add_core_of = USA
+		buildings = {
+			infrastructure = 2
+			industrial_complex = 3
+		}
+		victory_points = {
+			10740 5
+		}
+	}
+	provinces={
+		1954 5038 10740 10894 
+	}
+	manpower=1203452
+	buildings_max_level_factor=1.000
+	state_category = city
+}
