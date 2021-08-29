@@ -28,6 +28,7 @@ create_faction = Chinese_Communist_Alliance
 add_to_faction = VIN
 add_to_faction = CAM
 add_to_faction = LAO
+add_to_faction = PHI
 set_autonomy = {
 	target = SRL 
 	autonomous_state = autonomy_puppet
