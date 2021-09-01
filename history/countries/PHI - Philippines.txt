@@ -16,15 +16,16 @@ set_technology = {
 set_convoys = 5
 
 set_politics = {
-	ruling_party = democratic
+	ruling_party = neutrality
 	last_election = ""
 	election_frequency = 72
 	elections_allowed = yes
 }
 set_popularities = {
-	democratic = 82
-	fascism = 9
-	communism = 9
+	democratic = 40
+	fascism = 10
+	communism = 10
+	neutrality = 40
 }
 
 create_country_leader = {
@@ -32,7 +33,7 @@ create_country_leader = {
 	desc = "POLITICS_MANUEL_LUIS_QUEZON_DESC"
 	picture = "gfx/leaders/PHI/PHI_Harry_Roque.dds"
 	expire = ""
-	ideology = conservatism
+	ideology = despotism
 	traits = {
 		#
 	}
